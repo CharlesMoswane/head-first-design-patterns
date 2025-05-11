@@ -9,9 +9,11 @@ public class Main {
         List<Duck> ducks = new ArrayList<>();
         Duck duck = new Duck();
         MallardDuck mallardDuck = new MallardDuck();
+        RubberDuck rubberDuck = new RubberDuck();
 
         ducks.add(duck);
         ducks.add(mallardDuck);
+        ducks.add(rubberDuck);
 
         for (Duck d: ducks) {
             duck.quack();
