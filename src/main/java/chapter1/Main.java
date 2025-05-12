@@ -19,5 +19,7 @@ public class Main {
             duck.quack();
             duck.swim();
         }
+
+        rubberDuck.quack();
     }
 }
