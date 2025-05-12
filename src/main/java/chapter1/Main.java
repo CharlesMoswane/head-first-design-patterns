@@ -7,19 +7,17 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hi Chapter 1");
         List<Duck> ducks = new ArrayList<>();
-        Duck duck = new Duck();
+        Duck duckOg = new Duck();
         MallardDuck mallardDuck = new MallardDuck();
         RubberDuck rubberDuck = new RubberDuck();
 
-        ducks.add(duck);
+        ducks.add(duckOg);
         ducks.add(mallardDuck);
         ducks.add(rubberDuck);
 
-        for (Duck d: ducks) {
+        for (Duck duck: ducks) {
             duck.quack();
             duck.swim();
         }
-
-        rubberDuck.quack();
     }
 }
