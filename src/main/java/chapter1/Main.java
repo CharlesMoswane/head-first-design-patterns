@@ -10,10 +10,12 @@ public class Main {
         Duck duckOg = new Duck();
         MallardDuck mallardDuck = new MallardDuck();
         RubberDuck rubberDuck = new RubberDuck();
+        DecoyDuck decoyDuck = new DecoyDuck();
 
         ducks.add(duckOg);
         ducks.add(mallardDuck);
         ducks.add(rubberDuck);
+        ducks.add(decoyDuck);
 
         for (Duck duck: ducks) {
             duck.quack();
