@@ -5,6 +5,11 @@ public class Duck {
     private QuackAction quackAction;
     private SwimAction swimAction;
 
+    public Duck(QuackAction quackAction, SwimAction swimAction) {
+        this.quackAction = quackAction;
+        this.swimAction = swimAction;
+    }
+
     public void quack() {
         System.out.println("Quack");
     }
