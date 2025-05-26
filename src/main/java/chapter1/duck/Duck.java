@@ -15,6 +15,6 @@ public class Duck {
     }
 
     public void swim() {
-        System.out.println("Float like a butterfly");
+        swimAction.swim();
     }
 }
