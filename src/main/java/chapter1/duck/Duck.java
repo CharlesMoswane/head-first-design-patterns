@@ -3,11 +3,11 @@ package chapter1.duck;
 public class Duck {
 
     private QuackAction quackAction;
-    private SwimAction swimAction;
+    private SwimBehaviour swimBehaviour;
 
-    public Duck(QuackAction quackAction, SwimAction swimAction) {
+    public Duck(QuackAction quackAction, SwimBehaviour swimBehaviour) {
         this.quackAction = quackAction;
-        this.swimAction = swimAction;
+        this.swimBehaviour = swimBehaviour;
     }
 
     public void quack() {
@@ -15,6 +15,6 @@ public class Duck {
     }
 
     public void swim() {
-        swimAction.swim();
+        swimBehaviour.swim();
     }
 }
