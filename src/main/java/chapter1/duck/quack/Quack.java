@@ -1,4 +1,4 @@
-package chapter1.duck;
+package chapter1.duck.quack;
 
 public class Quack implements QuackAction{
 
