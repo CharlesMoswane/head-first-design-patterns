@@ -1,6 +1,4 @@
-package chapter1.duck;
-
-import chapter1.duck.swim.SwimBehaviour;
+package chapter1.duck.swim;
 
 public class Float implements SwimBehaviour {
     @Override
