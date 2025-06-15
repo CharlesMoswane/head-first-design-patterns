@@ -1,5 +1,7 @@
 package chapter1.duck;
 
+import chapter1.duck.swim.SwimBehaviour;
+
 public class Duck {
 
     private QuackAction quackAction;
