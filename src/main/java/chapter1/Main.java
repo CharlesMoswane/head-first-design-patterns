@@ -1,9 +1,9 @@
 package chapter1;
 
-import chapter1.duck.DecoyDuck;
-import chapter1.duck.Duck;
-import chapter1.duck.MallardDuck;
-import chapter1.duck.RubberDuck;
+import chapter1.duck.model.DecoyDuck;
+import chapter1.duck.model.Duck;
+import chapter1.duck.model.MallardDuck;
+import chapter1.duck.model.RubberDuck;
 
 import java.util.ArrayList;
 import java.util.List;

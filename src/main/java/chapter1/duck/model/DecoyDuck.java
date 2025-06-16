@@ -1,4 +1,4 @@
-package chapter1.duck;
+package chapter1.duck.model;
 
 import chapter1.duck.quack.QuackNoQuack;
 import chapter1.duck.swim.Float;
