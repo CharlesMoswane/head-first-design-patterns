@@ -1,5 +1,5 @@
 package chapter1.duck.behaviour.quack;
 
-public interface QuackAction {
+public interface QuackBehaviour {
     public void quack();
 }

@@ -1,6 +1,6 @@
 package chapter1.duck.behaviour.quack;
 
-public class Quack implements QuackAction{
+public class Quack implements QuackBehaviour {
 
     @Override
     public void quack() {
