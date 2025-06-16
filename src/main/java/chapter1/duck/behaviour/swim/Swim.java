@@ -1,4 +1,4 @@
-package chapter1.duck.swim;
+package chapter1.duck.behaviour.swim;
 
 public class Swim implements SwimBehaviour {
     @Override

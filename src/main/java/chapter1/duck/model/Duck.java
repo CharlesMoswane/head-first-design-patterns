@@ -1,6 +1,6 @@
 package chapter1.duck.model;
 
-import chapter1.duck.swim.SwimBehaviour;
+import chapter1.duck.behaviour.swim.SwimBehaviour;
 
 public class Duck {
 
