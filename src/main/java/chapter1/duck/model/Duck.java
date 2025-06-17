@@ -1,19 +1,20 @@
 package chapter1.duck.model;
 
+import chapter1.duck.behaviour.quack.QuackBehaviour;
 import chapter1.duck.behaviour.swim.SwimBehaviour;
 
 public class Duck {
 
-    private QuackAction quackAction;
+    private QuackBehaviour quackBehaviour;
     private SwimBehaviour swimBehaviour;
 
-    public Duck(QuackAction quackAction, SwimBehaviour swimBehaviour) {
-        this.quackAction = quackAction;
+    public Duck(QuackBehaviour quackBehaviour, SwimBehaviour swimBehaviour) {
+        this.quackBehaviour = quackBehaviour;
         this.swimBehaviour = swimBehaviour;
     }
 
     public void quack() {
-        quackAction.quack();
+        quackBehaviour.quack();
     }
 
     public void swim() {
