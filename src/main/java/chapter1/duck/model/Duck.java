@@ -20,4 +20,20 @@ public class Duck {
     public void swim() {
         swimBehaviour.swim();
     }
+
+    public QuackBehaviour getQuackBehaviour() {
+        return quackBehaviour;
+    }
+
+    public void setQuackBehaviour(QuackBehaviour quackBehaviour) {
+        this.quackBehaviour = quackBehaviour;
+    }
+
+    public SwimBehaviour getSwimBehaviour() {
+        return swimBehaviour;
+    }
+
+    public void setSwimBehaviour(SwimBehaviour swimBehaviour) {
+        this.swimBehaviour = swimBehaviour;
+    }
 }
