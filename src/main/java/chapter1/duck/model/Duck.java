@@ -1,6 +1,7 @@
 package chapter1.duck.model;
 
 import chapter1.duck.behaviour.fly.FlyBehaviour;
+import chapter1.duck.behaviour.fly.FlyWithWings;
 import chapter1.duck.behaviour.quack.Quack;
 import chapter1.duck.behaviour.quack.QuackBehaviour;
 import chapter1.duck.behaviour.swim.Swim;
@@ -15,11 +16,13 @@ public class Duck {
     public Duck() {
         this.quackBehaviour = new Quack();
         this.swimBehaviour = new Swim();
+        this.flyBehaviour =  new FlyWithWings();
     }
 
-    public Duck(QuackBehaviour quackBehaviour, SwimBehaviour swimBehaviour) {
+    public Duck(QuackBehaviour quackBehaviour, SwimBehaviour swimBehaviour, FlyBehaviour flyBehaviour) {
         this.quackBehaviour = quackBehaviour;
         this.swimBehaviour = swimBehaviour;
+        this.flyBehaviour = flyBehaviour;
     }
 
     public void quack() {
