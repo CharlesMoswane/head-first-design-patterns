@@ -4,7 +4,12 @@ import chapter2.weatherstation.observer.Observer;
 
 public class WeatherORama implements Subject{
     @Override
-    public void notify(Observer observer) {
+    public void addObserver(Observer observer) {
+
+    }
+
+    @Override
+    public void notify() {
 
     }
 }
