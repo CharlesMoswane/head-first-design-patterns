@@ -9,7 +9,7 @@ public class WeatherORama implements Subject{
     }
 
     @Override
-    public void notify() {
+    public void notifyObservers() {
 
     }
 }
