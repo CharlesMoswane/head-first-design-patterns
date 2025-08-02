@@ -19,6 +19,8 @@ public class WeatherORama implements Subject{
 
     @Override
     public void notifyObservers() {
-
+        for (Observer observer: observers) {
+            observer.performAction();
+        }
     }
 }
