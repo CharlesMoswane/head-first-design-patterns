@@ -5,11 +5,11 @@ import chapter2.weatherstation.observer.Observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WeatherORama implements Subject{
+public class WeatherData implements Subject{
 
     List<Observer> observers;
 
-    public WeatherORama() {
+    public WeatherData() {
         this.observers = new ArrayList<>();
     }
     @Override

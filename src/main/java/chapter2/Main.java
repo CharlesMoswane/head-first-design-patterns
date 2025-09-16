@@ -1,7 +1,7 @@
 package chapter2;
 
 import chapter2.weatherstation.observer.WeatherAggregate;
-import chapter2.weatherstation.subject.WeatherORama;
+import chapter2.weatherstation.subject.WeatherData;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,9 +9,9 @@ public class Main {
 
         WeatherAggregate weatherAggregate = new WeatherAggregate();
 
-        WeatherORama weatherORama = new WeatherORama();
+        WeatherData weatherData = new WeatherData();
 
-        weatherORama.addObserver(weatherAggregate);
-        weatherORama.notifyObservers();
+        weatherData.addObserver(weatherAggregate);
+        weatherData.notifyObservers();
     }
 }
