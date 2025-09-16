@@ -11,7 +11,7 @@ public class Main {
 
         WeatherData weatherData = new WeatherData();
 
-        weatherData.addObserver(weatherAggregate);
+        weatherData.registerObserver(weatherAggregate);
         weatherData.notifyObservers();
     }
 }

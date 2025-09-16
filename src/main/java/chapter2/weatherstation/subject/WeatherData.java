@@ -13,7 +13,7 @@ public class WeatherData implements Subject{
         this.observers = new ArrayList<>();
     }
     @Override
-    public void addObserver(Observer observer) {
+    public void registerObserver(Observer observer) {
         this.observers.add(observer);
     }
 
