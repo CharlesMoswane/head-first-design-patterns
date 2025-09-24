@@ -9,6 +9,11 @@ public class WeatherData implements Subject{
 
     List<Observer> observers;
 
+    private int temperature;
+    private int humidity;
+    private int pressure;
+    private boolean measurementsChanged;
+
     public WeatherData() {
         this.observers = new ArrayList<>();
     }
@@ -27,5 +32,21 @@ public class WeatherData implements Subject{
         for (Observer observer: observers) {
             observer.performAction();
         }
+    }
+
+    public int getTemperature() {
+        return temperature;
+    }
+
+    public int getHumidity() {
+        return humidity;
+    }
+
+    public int getPressure() {
+        return pressure;
+    }
+
+    public boolean isMeasurementsChanged() {
+        return measurementsChanged;
     }
 }
