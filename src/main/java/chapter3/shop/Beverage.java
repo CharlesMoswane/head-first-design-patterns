@@ -1,7 +1,7 @@
 package chapter3.shop;
 
 public abstract class Beverage {
-    private final String description;
+    String description;
 
     public Beverage(String description) {
         this.description = description;
