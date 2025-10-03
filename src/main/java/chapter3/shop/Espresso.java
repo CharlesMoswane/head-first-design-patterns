@@ -2,7 +2,7 @@ package chapter3.shop;
 
 public class Espresso extends Beverage {
     public Espresso() {
-        description = "Espresso ";
+        description = "Espresso";
     }
 
     @Override
