@@ -1,6 +1,6 @@
-package chapter3.shop;
+package chapter3.shop.beverage;
 
-public class HouseBlend extends Beverage{
+public class HouseBlend extends Beverage {
 
     public HouseBlend(String description) {
         description = "House blend coffee";

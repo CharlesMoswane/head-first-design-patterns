@@ -1,4 +1,4 @@
-package chapter3.shop;
+package chapter3.shop.beverage;
 
 public class Espresso extends Beverage {
     public Espresso() {
