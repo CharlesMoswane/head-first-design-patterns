@@ -1,6 +1,7 @@
 package chapter3.shop;
 
 import chapter3.shop.beverage.Espresso;
+import chapter3.shop.condiment.Milk;
 
 public class Starbuzz {
     public static void main(String[] args) {
@@ -8,5 +9,9 @@ public class Starbuzz {
 
         Espresso espresso = new Espresso();
         System.out.println(espresso.getDescription() + " R" + espresso.cost());
+
+        Milk espressoWithMilk = new Milk(espresso);
+        System.out.println(espressoWithMilk.getDescription() + " R" + espressoWithMilk.cost());
+
     }
 }
